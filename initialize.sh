@@ -14,3 +14,7 @@ source ~/.bash_profile
 rbenv install 2.3.1
 rbenv global 2.3.1
 ruby -v
+
+
+## reset system ruby:
+# rbenv global system

@@ -2,3 +2,4 @@
 ## path:
 ROOT_PATH=$(dirname $BASH_SOURCE);
 alias gi='gem install';
+alias bdi='sudo bundle install';

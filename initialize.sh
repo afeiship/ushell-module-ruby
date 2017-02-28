@@ -18,3 +18,13 @@ ruby -v
 
 ## reset system ruby:
 # rbenv global system
+
+## centos look here:
+#rbenv安装（/usr/local/rbenv）
+#安装依赖，需要root用户
+yum install -y git
+yum install -y readline-devel
+yum install -y openssl-devel zlib-devel
+yum install -y postgresql-devel
+#关闭ssl验证，如果clone报ca错误，执行下面的即可
+#git config --global http.sslVerify false

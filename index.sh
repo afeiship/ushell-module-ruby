@@ -11,6 +11,7 @@ alias gm-list='gem sources -l';
 if [ -d "$HOME/.gem" ]; then
     export GEM_HOME=$HOME/.gem;
     export GEM_PATH=$HOME/.gem;
+    export PATH=$PATH:$GEM_PATH
 fi
 
 ##bundle commands:

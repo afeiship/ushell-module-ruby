@@ -1,5 +1,5 @@
 {
-  "name": "@feizheng/ushell-module-ruby",
+  "name": "@jswork/ushell-module-ruby",
   "version": "1.0.0",
   "description": "Unix like shell module for ruby.",
   "main": "index.sh",
@@ -8,11 +8,12 @@
     "url": "git+https://github.com/afeiship/ushell-module-ruby.git"
   },
   "keywords": [
-    "ushell",
     "unix",
+    "ruby",
     "shell",
-    "system",
-    "infomation"
+    "rbenv",
+    "command",
+    "alias"
   ],
   "author": "afei",
   "license": "MIT",

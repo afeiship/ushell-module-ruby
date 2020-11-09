@@ -3,7 +3,7 @@
 
 ## installation
 ```shell
-npm i -S @feizheng/ushell-module-ruby
+npm i -S @jswork/ushell-module-ruby
 ```
 
 ## resources

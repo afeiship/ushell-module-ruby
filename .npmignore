@@ -2,3 +2,4 @@
 .vscode
 .history
 .release-it.json
+node_modules

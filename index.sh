@@ -8,11 +8,13 @@ alias gm-swith='gem sources --add https://gems.ruby-china.org/ --remove https://
 alias gm-list='gem sources -l';
 
 ## set gem path:
-if [ -d "$HOME/.gem" ]; then
-    export GEM_HOME=$HOME/.gem;
-    export GEM_PATH=$HOME/.gem;
-    export PATH=$PATH:$HOME/.gem/bin
-fi
+# multiple version ruby will get bug.
+# - https://github.com/rbenv/rbenv/issues/576
+# if [ -d "$HOME/.gem" ]; then
+#     export GEM_HOME=$HOME/.gem;
+#     export GEM_PATH=$HOME/.gem;
+#     export PATH=$PATH:$HOME/.gem/bin
+# fi
 
 ##bundle commands:
 alias bdi='bundle install';
